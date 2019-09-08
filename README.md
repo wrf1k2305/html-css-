@@ -1,2 +1,2 @@
-# html-css-
-有关html和css学习的
+# javascript
+学习javascript所做的笔记
