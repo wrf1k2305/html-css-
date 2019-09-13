@@ -1,2 +1,2 @@
-# javascript
-学习javascript所做的笔记
+#html和css学习记录
+
