@@ -1,60 +1,97 @@
 <html>
-    <head>
-        <title>个人简历</title>
-        <style type="text/css">
-            h1 {
-                text-align: center;
-                font-size:24px;
-            }
 
-            h2 {
-                font-size:22px;
-                text-align:center;
-            }
+<head>
+    <title>个人简历</title>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            border-bottom: 2px solid black;
+        }
 
-            h3 {
-                font-size:20px;
-            }
+        h2 {
+            font-size: 22px;
+            text-align: center;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: darkkhaki;
+        }
 
-            p{
-                font-size:18px;
-            }
+        h3 {
+            font-size: 20px;
+        }
 
-            ul li{
-                font-size:18px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>个人简历</h1>
-        <hr/>
-        <h2>基本信息</h2>
-        <hr/>
-        <p>姓 名：王若枫</p>
-        <p>民 族：汉族</p>
-        <p>电 话: 18583697549</p>
-        <p>邮 箱：710862119@qq.com</p>
-        <p>家庭地址：上海市浦东新区</p>
-        <p>毕 业 院 校：重庆邮电大学</p>
-        <p>学 历：本科</p>
+        p {
+            font-size: 18px;
+        }
 
-        <h2>教 育 背 景</h2>
-        <hr/>
-        <h3>主 修 课 程：</h3>
-        <ul>
-           <li>大 学 英 语</li> 
-           <li>面 向 对 象 程 序 设 计</li>
-           <li>高 等 数 学</li>
-           <li>软 件 工 程</li>
-        </ul>
+        ul.style1 {
+            list-style-type:square;
+            list-style-position: inside;
+        }
 
-        <h2>项 目 经 验</h2>
-        <hr/>
-        <h3>本人在西游记项目中职责如下：</h3>
-        <ul>
-            <li>配合美术完成游戏界面的搭建</li>
-            <li>配合策划实现游戏逻辑</li>
-            <li>修正游戏客户端bug</li>
-        </ul>
-    </body>
+        ul.style2 {
+            list-style-type:disc;
+            list-style-position:initial;
+        }
+
+        ul li {
+            font-size: 18px;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: aqua;
+        }
+        a:visited {
+            border-bottom:2px solid red;
+        }
+
+        a:focus {
+            border-bottom-color: brown;
+        }
+        a:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>个人简历</h1>
+    <h2>基本信息</h2>
+    <p>姓 名：王若枫</p>
+    <p>民 族：汉族</p>
+    <p>电 话: 18583697549</p>
+    <p>邮 箱：<a href="https://www.baidu.com">710862119@qq.com</a></p>
+    <p>家庭地址：上海市浦东新区</p>
+    <p>毕 业 院 校：重庆邮电大学</p>
+    <p>学 历：本科</p>
+
+    <h2>教 育 背 景</h2>
+    <h3>主 修 课 程：</h3>
+    <ul class="style1">
+        <li>大 学 英 语</li>
+        <li>面 向 对 象 程 序 设 计</li>
+        <li>高 等 数 学</li>
+        <li>软 件 工 程</li>
+    </ul>
+
+    <h2>项 目 经 验</h2>
+    <h3>本人在西游记项目中职责如下：</h3>
+    <ul class="style2">
+        <li>配合美术完成游戏界面的搭建</li>
+        <li>配合策划实现游戏逻辑</li>
+        <li>修正游戏客户端bug</li>
+    </ul>
+</body>
+
 </html>
